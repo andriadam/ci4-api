@@ -113,10 +113,6 @@ class PegawaiController extends ResourceController
      */
     public function update($id = null)
     {
-        // return $this->respond([
-        //     'message' => 'success',
-        //     'data'     => $this->request->getVar('nama')
-        // ], 200);
         $rules = $this->validate([
             'nama' => 'required',
             'alamat' => 'required',

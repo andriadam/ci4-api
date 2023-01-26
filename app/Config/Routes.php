@@ -38,7 +38,7 @@ $routes->get('/', 'Home::index');
 // $routes->delete('pegawai/(:num)', 'PegawaiController::delete/$1');
 
 $routes->resource('pegawai', ['controller' => 'PegawaiController']);
-$routes->post('pegawai/(:num)', 'PegawaiController::update/$1');
+// $routes->post('pegawai/(:num)', 'PegawaiController::update/$1');
 
 /*
  * --------------------------------------------------------------------
